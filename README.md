@@ -4,6 +4,12 @@
 
 Build a color grid and a palette selector. When the user selects a color from the palette, hovering over the grid fills each cell with that selected color.
 
+---
+
+## 🔗 Live Demo
+
+👉 [https://coloring-grid-problem.vercel.app/](https://coloring-grid-problem.vercel.app/)
+
 ## What this app does
 
 - Renders a 5x5 grid of color cells
