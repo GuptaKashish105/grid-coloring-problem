@@ -2,25 +2,22 @@
 
 ## Problem Statement
 
-Build a color grid and a palette selector. When the user selects a color from the palette, hovering over the grid fills each cell with that selected color.
+Create a dynamic NxN grid where N is input by the user. The app should render a palette with N different random colors, allow the user to choose one, and then let the user hover over grid cells to apply that chosen color.
 
 ---
 
-## 🔗 Live Demo
-
-👉 [https://coloring-grid-problem.vercel.app/](https://coloring-grid-problem.vercel.app/)
-
 ## What this app does
 
-- Renders a 5x5 grid of color cells
-- Displays a palette of colors below the grid
-- Lets the user select a color from the palette
-- When the user hovers over a grid cell, the hovered cell is filled with the selected color
+- Allows the user to enter a grid size `N` and renders an `N x N` grid
+- Initializes all grid cells with a white background
+- Generates `N` random named palette colors for each grid size
+- Lets the user pick one palette color and hover over cells to fill them
+- Centers the grid and palette layout for a cleaner UI
 
 ## Files
 
-- `src/App.jsx` - main React component implementing the grid and palette logic
-- `src/styles.css` - base styles for the app
+- `src/App.jsx` - main React component implementing the grid, color palette, and user input logic
+- `src/styles.css` - base app styles
 
 ## Run locally
 
@@ -36,5 +33,7 @@ Build a color grid and a palette selector. When the user selects a color from th
 
 ## Notes
 
-- The selected palette color is shown as the active choice.
-- Hovering over a grid cell applies the selected color immediately.
+- The input field controls the grid size dynamically.
+- Palette colors are chosen from a named color list, not plain hex codes.
+- The selected color is highlighted with a stronger border.
+- Grid cells start white and update as the user hovers over them.
