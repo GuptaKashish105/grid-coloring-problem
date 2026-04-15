@@ -6,6 +6,10 @@ Create a dynamic NxN grid where N is input by the user. The app should render a 
 
 ---
 
+## 🔗 Live Demo
+
+👉 [https://coloring-grid-problem.vercel.app/](https://coloring-grid-problem.vercel.app/)
+
 ## What this app does
 
 - Allows the user to enter a grid size `N` and renders an `N x N` grid
